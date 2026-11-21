@@ -1,0 +1,1 @@
+# Immutable uploads. The pipeline must not delete or modify these files.

@@ -1,0 +1,19 @@
+# QuantSentinel direct dependencies, pinned to the versions installed in .venv.
+# Install only inside .venv:  python -m pip install -r requirements.txt
+# SQLite is provided by the Python standard library (sqlite3); no extra package.
+
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+pytest==8.4.2
+
+# FastAPI backend
+fastapi==0.115.0
+uvicorn==0.34.0
+python-multipart==0.0.9
+
+# ECOD anomaly detection
+pyod==3.6.8
+
+# CORS support (included in FastAPI)
+# No additional package needed for CORS middleware
